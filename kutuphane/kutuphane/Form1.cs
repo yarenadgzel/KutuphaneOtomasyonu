@@ -240,7 +240,7 @@ using System.Data.OleDb;
         //Emanet geri verilince stok sayısını artıran program
         private void stokartır(string kitapno2)
         {
-
+            //Değişiklik yaptım
             int stokSayi2 = 0;
             baglantim.Open();
 
@@ -256,9 +256,6 @@ using System.Data.OleDb;
             baglantim.Close();
 
         }
-
-
-
 
 
 
