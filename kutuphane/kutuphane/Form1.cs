@@ -37,11 +37,6 @@ using System.Data.OleDb;
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
             //KİTAP EKLEME İŞLEMLERİ
         {
@@ -294,23 +289,7 @@ using System.Data.OleDb;
             }
         }
 
-        private void textBox15_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-
-        }
-
-
+ 
         //İki kere tıklandıgında texttboxlara doluyor güncelleme işlemini kolaylastırıyor.Datagridview1 için
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -322,12 +301,6 @@ using System.Data.OleDb;
             textBox6.Text = dataGridView1.CurrentRow.Cells["stoksayı"].Value.ToString();
 
         }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
 
         //İki kere tıklandıgında texttboxlara doluyor güncelleme işlemini kolaylastırıyor.Datagridview2 için
         private void dataGridView2_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
